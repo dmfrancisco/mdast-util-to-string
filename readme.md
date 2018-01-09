@@ -30,7 +30,7 @@ console.log(toString(tree)); //=> 'Some emphasis, importance, and code.'
 
 Get the text content of a node.
 
-The algorithm checks `value` of `node`, then `alt`, and finally `title`.
+The algorithm checks `value` of `node`.
 If no value is found, the algorithm checks the children of `node` and
 joins them (without spaces or newlines).
 

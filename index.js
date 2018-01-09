@@ -18,5 +18,5 @@ function valueOf(node) {
   if (!node) {
     return '';
   }
-  return node.value ? node.value : (node.alt ? node.alt : node.title) || '';
+  return node.value || '';
 }
